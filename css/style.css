@@ -1,0 +1,195 @@
+/*
+Styled by Brendan Boursiquot
+*/
+
+/* IMPORTS */
+/* Raleway Font from Google Fonts... "sans-serif" Type */
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+/* 
+=============================================================================
+  Universal Site Styles
+=============================================================================
+*/
+
+/* RESET ALL MARGINS AND PADDINGS */
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+/* MAKE BODY TAKE 100% OF PAGE */
+html, body 
+{
+  cursor: crosshair;
+  font-family: 'Raleway', Arial, sans-serif;
+  background-color: rgb( 178, 178, 178 );
+  color: rgb( 25, 125, 225 );
+}
+
+header
+{
+  padding: 5%;
+}
+
+h1
+{
+  text-align: center;
+  margin: 2.5vh;
+}
+
+main
+{
+  background-color: rgb( 182, 182, 182 );
+  margin-top: 10vh;
+  margin-bottom: 20vh;
+
+  text-align: center;
+}
+
+.projectSection
+{
+  text-align: center;
+
+  padding-top: 1vh;
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+
+  background-color: rgb( 178, 178, 178 );
+
+  outline: rgb( 180, 180, 180 ) solid 1vw;
+}
+
+img
+{
+  display: inline-block;
+  margin: 1.5vw;
+  width: 15vw;
+  height: 15vw;
+}
+
+.mainPhoto
+{
+  box-shadow: 0.75vw 0.75vw 0.75vw #aaa;
+}
+
+.sidePhoto
+{
+  visibility: hidden;
+  opacity: 0;
+}
+
+.projectSection p
+{
+  visibility: hidden;
+  opacity: 0;
+}
+
+footer
+{
+  background-color: rgba( 185, 185, 185, 0.95 );
+  padding: 1vw;
+
+  position: fixed;
+  bottom: 1vh;
+  left: 1vw;
+}
+
+footer h5
+{
+  margin-bottom: 5vh;
+}
+
+footer p
+{
+  opacity: 0.4;
+}
+
+/* TRANSFORMATIONS */
+img
+{
+  transform: scale( 1 );
+  transition: 1s;
+}
+
+img:hover
+{
+  transform: scale( 1.25 );
+}
+
+#about
+{
+  opacity: 0.155;
+  transition: opacity 1s
+}
+
+
+#about:hover
+{
+  transition: opacity 1.5s;
+  opacity: 0.9;
+}
+
+#about:hover > p
+{
+  transition: opacity 1s;
+  opacity: 0.9;
+}
+
+
+
+/* 
+=============================================================================
+  Section Styles
+=============================================================================
+*/
+
+/* 
+-------------
+  HOME
+-------------
+*/
+
+/* ----- END OF "HOME" STYLING ----- */
+
+
+/* 
+-------------
+  MENU
+-------------
+*/
+
+
+/* ----- END OF "MENU" STYLING ----- */
+
+
+/* 
+-------------
+  PROJECT
+-------------
+*/
+
+/* ----- END OF "PROJECT" STYLING ----- */
+
+
+/* 
+-------------
+  ABOUT
+-------------
+*/
+
+/* ----- END OF "ABOUT" STYLING ----- */
+
+
+/* 
+=============================================================================
+  Media Queries
+=============================================================================
+*/
+
+/* Change for All Mobile Sizes Only */
+@media only screen and (max-width: 767px) 
+{
+
+}
