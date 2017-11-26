@@ -50,6 +50,9 @@ function animateProjectOut()
 
 function makeAllProjects()
 {
+	var desc0 = "A Compilation of Most Recent Works + 1 Draft Process"
+	makeNewProject( "[Visual Designs]", "portvisual", desc0 );
+
 	var desc1 = "An Abstract Program Reflecting on Equality"
 	makeNewProject( "A Story of Black and White", "sobaw", desc1 );
 
