@@ -50,23 +50,26 @@ function animateProjectOut()
 
 function makeAllProjects()
 {
-	var desc0 = "A Compilation of Most Recent Works + 1 Draft Process"
+	var desc0 = "A Compilation of Most Recent Works + 1 Draft Process (Adobe Suite)"
 	makeNewProject( "[Visual Designs]", "portvisual", desc0 );
 
-	var desc1 = "An Abstract Program Reflecting on Equality"
-	makeNewProject( "A Story of Black and White", "sobaw", desc1 );
+	var desc1 = "A Robotron: 2084 Remake/Sequel - New Modes/Enemy (GameMaker 2/GML)"
+	makeNewProject( "Robotron: 2094 (SuperTron)", "st", desc1 );
 
-	var desc2 = "A Basic Escape Game With Different Obstacles"
-	makeNewProject( "BlockIT", "bi", desc2 );
+	var desc2 = "An Abstract Program Reflecting on Equality (Processing/Java)"
+	makeNewProject( "A Story of Black and White", "sobaw", desc2 );
 
-	var desc3 = "A Conceptual Website Using NYTimes Articles as a Memoir"
-	makeNewProject( "My Beautiful Grey Twisted Reality", "mbgtr", desc3 );
+	var desc3 = "A Basic Escape Game With Different Obstacles (P5.js/JavaScript)"
+	makeNewProject( "BlockIT", "bi", desc3 );
 
-	var desc4 = "A Personal Blog Organized by Type and Tone of Subject Matter"
-	makeNewProject( "Nigmatic World", "nw", desc4 );
+	var desc4 = "A Conceptual Website Using Articles as a Memoir (JavaScript/NYTimes API)"
+	makeNewProject( "My Beautiful Grey Twisted Reality", "mbgtr", desc4 );
 
-	var desc5 = "An iOS Whack-A-Mole Game with Various Modes"
-	makeNewProject( "Touch Adventure", "ta", desc5 );
+	var desc5 = "A Personal Blog Organized by Type and Tone of Subject Matter (JavaScript)"
+	makeNewProject( "Nigmatic World", "nw", desc5 );
+
+	var desc6 = "An iOS Whack-A-Mole Game with Various Modes (GameSalad)"
+	makeNewProject( "Touch Adventure", "ta", desc6 );
 }
 
 function makeNewProject( title, fileName, desc )
