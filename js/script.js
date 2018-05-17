@@ -50,26 +50,38 @@ function animateProjectOut()
 
 function makeAllProjects()
 {
-	var desc0 = "A Compilation of Most Recent Works + 1 Draft Process (Adobe Suite)"
-	makeNewProject( "[Visual Designs]", "portvisual", desc0 );
+	var desc0 = "A Conceptual Infinite Runner with Audio-Input (Unity3D/Adobe Suite/Logic Pro X)"
+	makeNewProject( "Speak UP!", "su", desc0 );
 
-	var desc1 = "A Robotron: 2084 Remake/Sequel - New Modes/Enemy (GameMaker 2/GML)"
-	makeNewProject( "Robotron: 2094 (SuperTron)", "st", desc1 );
+	var desc1 = "A Basic 3D Fighting Game for PlayStation 4 (Unity3D)"
+	makeNewProject( "3D Fighter", "tdf", desc1 );
 
-	var desc2 = "An Abstract Program Reflecting on Equality (Processing/Java)"
-	makeNewProject( "A Story of Black and White", "sobaw", desc2 );
+	var desc2 = "An Audio-Visual Multi-Album Experience (Unity3D/Logic Pro X)"
+	makeNewProject( "Music Explorer", "me", desc2 );
 
-	var desc3 = "A Basic Escape Game With Different Obstacles (P5.js/JavaScript)"
-	makeNewProject( "BlockIT", "bi", desc3 );
+	var desc3 = "A Music Program with Interactive Audio Input (P5.js/JavaScript)"
+	makeNewProject( "Not All Heroes Wear Capes", "nahwc", desc3 );
 
-	var desc4 = "A Conceptual Website Using Articles as a Memoir (JavaScript/NYTimes API)"
-	makeNewProject( "My Beautiful Grey Twisted Reality", "mbgtr", desc4 );
+	var desc4 = "A Compilation of Most Recent Works + 1 Draft Process (Adobe Suite)"
+	makeNewProject( "[Visual Designs]", "portvisual", desc4 );
 
-	var desc5 = "A Personal Blog Organized by Type and Tone of Subject Matter (JavaScript)"
-	makeNewProject( "Nigmatic World", "nw", desc5 );
+	var desc5 = "A Robotron: 2084 Remake/Sequel - New Modes/Enemy (GameMaker 2/GML)"
+	makeNewProject( "Robotron: 2094 (SuperTron)", "st", desc5 );
 
-	var desc6 = "An iOS Whack-A-Mole Game with Various Modes (GameSalad)"
-	makeNewProject( "Touch Adventure", "ta", desc6 );
+	var desc6 = "An Abstract Program Reflecting on Equality (Processing/Java)"
+	makeNewProject( "A Story of Black and White", "sobaw", desc6 );
+
+	var desc7 = "A Basic Escape Game With Different Obstacles (P5.js/JavaScript)"
+	makeNewProject( "BlockIT", "bi", desc7 );
+
+	var desc8 = "A Conceptual Website Using Articles as a Memoir (JavaScript/NYTimes API)"
+	makeNewProject( "My Beautiful Grey Twisted Reality", "mbgtr", desc8 );
+
+	var desc9 = "A Personal Blog Organized by Type and Tone of Subject Matter (JavaScript)"
+	makeNewProject( "Nigmatic World", "nw", desc9 );
+
+	var desc10 = "An iOS Whack-A-Mole Game with Various Modes (GameSalad)"
+	makeNewProject( "Touch Adventure", "ta", desc10 );
 }
 
 function makeNewProject( title, fileName, desc )
